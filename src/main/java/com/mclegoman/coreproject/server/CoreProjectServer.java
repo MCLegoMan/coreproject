@@ -18,13 +18,10 @@ import com.mclegoman.legolib.common.LegoLibStaticData;
 import net.fabricmc.api.ModInitializer;
 
 public class CoreProjectServer implements ModInitializer {
-    private static Boolean ServerInit = false;
-
     @Override
     public void onInitialize() {
         LegoLibStaticData.sendMessageToLog(CoreProjectStaticData.PREFIX, "info", "Initializing Server");
         CoreProjectStaticData.registerStaticData();
         CoreProjectResources.registerDatapacks();
-        ServerInit = true;
     }
 }

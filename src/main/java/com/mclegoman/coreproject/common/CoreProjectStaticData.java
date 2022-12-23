@@ -19,7 +19,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 
 public class CoreProjectStaticData {
-    public static final String ID = "coreprojectexpansion";
+    public static final String ID = "coreproject";
     public static final String VERSION = "2.0.0";
     public static final String NAME = "Core Project";
     public static final String PREFIX = "[" + NAME + " " + VERSION + "] ";
