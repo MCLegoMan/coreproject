@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": {
+      "translate": "pack.lives_three.data.description"
+    }
+  }
+}

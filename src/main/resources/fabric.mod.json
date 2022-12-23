@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "coreproject",
+  "version": "${version}",
+
+  "name": "Core Project",
+  "description": "Made for the Core Series!",
+  "authors": [
+    "MCLegoMan"
+  ],
+  "contact": {
+    "homepage": "https://twitch.tv/mclegoman"
+  },
+
+  "license": "MCLM-OSL (2022)",
+  "icon": "assets/core/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mclegoman.coreproject.server.CoreProjectServer"
+    ],
+    "client": [
+      "com.mclegoman.coreproject.client.CoreProjectClient"
+    ]
+  },
+  "mixins": [
+    "coreproject.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19.3",
+    "java": ">=17",
+    "legolib": ">=2.4.2"
+  }
+}

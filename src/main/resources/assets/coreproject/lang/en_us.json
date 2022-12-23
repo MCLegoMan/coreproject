@@ -1,0 +1,12 @@
+{
+  "pack.always_day.data.title": "Core Project: Always Day",
+  "pack.always_day.data.description": "By enabling this pack, the world will always be day.",
+  "pack.always_night.data.title": "Core Project: Always Night",
+  "pack.always_night.data.description": "By enabling this pack, the world will always be night.",
+  "pack.lives_three.data.title": "Core Project: Three Lives",
+  "pack.lives_three.data.description": "By enabling this pack, You will have three lives.",
+  "pack.lives_five.data.title": "Core Project: Five Lives",
+  "pack.lives_five.data.description": "By enabling this pack, You will have five lives.",
+  "pack.lives_ten.data.title": "Core Project: Ten Lives",
+  "pack.lives_ten.data.description": "By enabling this pack, You will have ten lives."
+}
